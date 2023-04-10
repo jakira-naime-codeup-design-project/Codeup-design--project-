@@ -27,4 +27,6 @@ body, html {
 }
 .headThree{
     font-weight: lighter;
+    font-size: 20px ;
+    text-align: center;
 }

@@ -15,18 +15,21 @@ body, html {
 }
 .headers{
     text-align: center;
-    font-weight: bold;
-    font-size: 400px;
+    font-weight: bolder;
+    font-family: Anton;
 }
 .headOne{
     margin-top: 1em;
     margin-bottom: 1em;
+    font-size: 800px;
 }
 .headTwo{
     margin-bottom: 1em;
+    font-size: 100px;
 }
 .headThree{
     font-weight: lighter;
     font-size: 20px ;
     text-align: center;
+    font-family: Abel;
 }

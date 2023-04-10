@@ -13,3 +13,18 @@ body, html {
     /*display: flex;*/
     /*flex-direction: column; align-items: stretch;*/
 }
+.headers{
+    text-align: center;
+    font-weight: bold;
+    font-size: 400px;
+}
+.headOne{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.headTwo{
+    margin-bottom: 1em;
+}
+.headThree{
+    font-weight: lighter;
+}

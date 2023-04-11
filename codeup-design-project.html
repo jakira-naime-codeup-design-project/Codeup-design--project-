@@ -10,14 +10,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/icons.css">
-    <link rel="stylesheet" href="design-project.css">
+    <link rel="stylesheet" href="css/design-project.css">
 </head>
 <body>
 
 
-<!--xs@small Screen....-->
+<!--xs@small Screen--->
 <div class="d-sm-block d-md-none">
-    <div class="container-sm">
+    <div class="container-fluid">
         <!--navbar for small screen -->
 
         <div class="collapse" id="navbarToggleExternalContent">
@@ -29,11 +29,11 @@
                     <li>Blog</li>
                     <li>Contact</li>
                 </ul>
-<!--                <span class="text-muted">Toggleable via the navbar brand.</span>-->
+                <!--                <span class="text-muted">Toggleable via the navbar brand.</span>-->
             </div>
         </div>
         <nav class="navbar navbar-light" style="background-color: #F0F0F0;">
-            <div class="container-sm ">
+            <div class="container-fluid ">
                 <div class="photo d-flex align-items-start ">
                     <img src="img/logo.png" height="55" width="55"/>
                 </div>
@@ -46,9 +46,10 @@
             </div>
         </nav>
         <div class="headers">
-            <div class="container- sm d-flex flex-column flex-grow-1">
-        <h1 class="headOne fs-1 fw-bold">VISUAL DESIGN &<br> WEB DEVELOPMENT</h1>
-        <h2 class="headTwo fs-2 fw-bold" >FROM PARK CITY, UTAH</h2>
+            <div class="container-fluid d-flex flex-column flex-grow-1">
+                <h1 class="headOne fs-1 fw-bold">VISUAL DESIGN & WEB DEVELOPMENT</h1>
+
+                <h2 class="headTwo fs-2 fw-bold">FROM PARK CITY, UTAH</h2>
             </div>
         </div>
     </div>
@@ -63,7 +64,7 @@
         <div class="collapse" id="navbarToggleExternalContent">
             <div class="background-color:#F0F0F0 p-4">
                 <h5 class="text-white h4">codeup design</h5>
-                <ul class="text-color: #B0B0B0" >
+                <ul class="text-color: #B0B0B0">
                     <li>Services</li>
                     <li>Work</li>
                     <li>Blog</li>
@@ -73,7 +74,7 @@
             </div>
         </div>
         <nav class="navbar navbar-light" style="background-color: #F0F0F0;">
-            <div class="container-sm ">
+            <div class="container-fluid ">
                 <div class="photo d-flex align-items-start ">
                     <img src="img/logo.png" height="55" width="55"/>
                 </div>
@@ -85,12 +86,6 @@
 
             </div>
         </nav>
-        <div class="headers">
-            <div class="container- sm d-flex flex-column flex-grow-1">
-                <h1 class="headOne fs-1 fw-bold">VISUAL DESIGN &<br> WEB DEVELOPMENT</h1>
-                <h2 class="headTwo fs-2 fw-bold" >FROM PARK CITY, UTAH</h2>
-            </div>
-        </div>
     </div>
 </div>
 
@@ -101,7 +96,7 @@
         <!--    nav bar for large screen-->
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-lg">
+            <div class="container-fluid">
                 <div class="photo d-flex align-items-start  p-1">
                     <img src="img/logo.png" height="55" width="55"/>
                 </div>
@@ -138,7 +133,7 @@
         <!--    nav bar for xl screen-->
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-xl">
+            <div class="container-fluid">
                 <div class="photo d-flex align-items-start  p-1">
                     <img src="img/logo.png" height="55" width="55"/>
                 </div>
@@ -169,109 +164,114 @@
     </div>
 </div>
 <!--the four dots go here-->
+<div class="row anton-font ">
+    <div class="col-6 col-md-3">
+        <span class="rounded-circle dot red-icon">DESIGN</span>
+    </div>
+    <div class="col-6 col-md-3">
+        <span class="rounded-circle dot yellow-icon">DEVELOP</span>
+    </div>
+    <div class="col-6 col-md-3">
+        <span class="rounded-circle dot green-icon">SUPPORT</span>
+    </div>
+    <div class="col-6 col-md-3">
+        <span class="rounded-circle dot blue-icon">HOST</span>
+    </div>
+</div>
 
-<!--new header-->
-<h3 class="headThree" > SELECTED WORK</h3>
 <!--images-->
-<!--image 1-->
-<div class="container">
-    <div class="figure">
-        <img src="img/images/apple-ipad.jpg" class="img-fluid border border-5">
-        <div class="container">
-            <div class="row">
-                <div class="col abel-font">
-                    FEATURED PROJECT
-                </div>
-                <div class="col">
-                </div>
-                <div class="col">
-                    <div class="d-flex justify-content-evenly anton-font">
-                        <span class="rounded-circle icons red-icon">D</span>
-                        <span class="rounded-circle icons yellow-icon">D</span>
-                        <span class="rounded-circle icons green-icon">S</span>
-                        <span class="rounded-circle icons blue-icon">H</span>
+<div class=" row m-2">
+    <!--new header-->
+    <h3 class="headThree">SELECTED WORK</h3>
+    <!--image 1-->
+    <div class="container col-md-6 col-lg-4">
+        <div class="figure">
+            <img src="img/images/apple-ipad.jpg" class="img-fluid border border-5">
+            <div class="container-fluid px-2">
+                <div class="row">
+                    <div class="col-8 abel-font">
+                        FEATURED PROJECT
+                    </div>
+                    <div class="col-4">
+                        <div class="d-flex justify-content-between anton-font">
+                            <span class="rounded-circle icons red-icon">D</span>
+                            <span class="rounded-circle icons yellow-icon">D</span>
+                            <span class="rounded-circle icons green-icon">S</span>
+                            <span class="rounded-circle icons blue-icon">H</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </div>
-</div>
-</div>
-<!--image 2-->
-<div class="container">
-    <div class="figure">
-        <img src="img/images/macbook.jpg" class="img-fluid border border-5">
-        <div class="container">
-            <div class="row">
-                <div class="col abel-font">
-                    FEATURED PROJECT
-                </div>
-                <div class="col">
-                </div>
-                <div class="col">
-                    <div class="d-flex justify-content-evenly anton-font">
-                        <span class="rounded-circle icons red-icon">D</span>
-                        <span class="rounded-circle icons yellow-icon">D</span>
-                        <span class="rounded-circle icons green-icon">S</span>
-                        <span class="rounded-circle icons blue-icon">H</span>
+
+    <!--image 2-->
+    <div class="container col-md-6 col-lg-4">
+        <div class="figure">
+            <img src="img/images/macbook.jpg" class="img-fluid border border-5">
+            <div class="container-fluid px-2">
+                <div class="row">
+                    <div class="col-8 abel-font">
+                        FEATURED PROJECT
+                    </div>
+                    <div class="col-4">
+                        <div class="d-flex justify-content-evenly anton-font">
+                            <span class="rounded-circle icons red-icon">D</span>
+                            <span class="rounded-circle icons yellow-icon">D</span>
+                            <span class="rounded-circle icons green-icon">S</span>
+                            <span class="rounded-circle icons blue-icon">H</span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
+        </div>
     </div>
-</div>
-</div>
-<!--image 3-->
-<div class="container">
-    <div class="figure">
-        <img src="img/images/man.jpg" class="img-fluid border border-5">
-        <div class="container">
-            <div class="row">
-                <div class="col abel-font">
-                    FEATURED PROJECT
-                </div>
-                <div class="col">
-                </div>
-                <div class="col">
-                    <div class="d-flex justify-content-evenly anton-font">
-                        <span class="rounded-circle icons red-icon">D</span>
-                        <span class="rounded-circle icons yellow-icon">D</span>
-                        <span class="rounded-circle icons green-icon">S</span>
-                        <span class="rounded-circle icons blue-icon">H</span>
+    <!--image 3-->
+    <div class="container col-md-6 col-lg-4">
+        <div class="figure">
+            <img src="img/images/man.jpg" class="img-fluid border border-5">
+            <div class="container-fluid px-2">
+                <div class="row">
+                    <div class="col-8 abel-font">
+                        FEATURED PROJECT
+                    </div>
+                    <div class="col-4">
+                        <div class="d-flex justify-content-evenly anton-font">
+                            <span class="rounded-circle icons red-icon">D</span>
+                            <span class="rounded-circle icons yellow-icon">D</span>
+                            <span class="rounded-circle icons green-icon">S</span>
+                            <span class="rounded-circle icons blue-icon">H</span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
+        </div>
     </div>
-</div>
-</div>
-<!--image 4-->
-<div class="container">
-    <div class="figure">
-        <img src="img/images/security.jpg" class="img-fluid border border-5">
-        <div class="container">
-            <div class="row">
-                <div class="col abel-font">
-                    FEATURED PROJECT
-                </div>
-                <div class="col">
-                </div>
-                <div class="col">
-                    <div class="d-flex justify-content-evenly anton-font">
-                        <span class="rounded-circle icons red-icon">D</span>
-                        <span class="rounded-circle icons yellow-icon">D</span>
-                        <span class="rounded-circle icons green-icon">S</span>
-                        <span class="rounded-circle icons blue-icon">H</span>
+    <!--image 4-->
+    <div class="container col-md-6 col-lg-4">
+        <div class="figure">
+            <img src="img/images/security.jpg" class="img-fluid border border-5">
+            <div class="container-fluid px-2">
+                <div class="row">
+                    <div class="col-8 abel-font">
+                        FEATURED PROJECT
+                    </div>
+                    <div class="col-4">
+                        <div class="d-flex justify-content-evenly anton-font">
+                            <span class="rounded-circle icons red-icon">D</span>
+                            <span class="rounded-circle icons yellow-icon">D</span>
+                            <span class="rounded-circle icons green-icon">S</span>
+                            <span class="rounded-circle icons blue-icon">H</span>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
 
+        </div>
     </div>
-</div>
+
 </div>
 
 

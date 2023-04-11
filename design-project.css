@@ -33,3 +33,73 @@ body, html {
     text-align: center;
     font-family: Abel;
 }
+@media screen and (min-width:200px) and (max-width:765px){
+    .red-icon {
+        margin-left: auto;
+        margin-bottom: 1em;
+    }
+    .green-icon{
+        margin-left: auto;
+        margin-bottom: 1em;
+    }
+    .yellow-icon{
+        margin-bottom: 1em;
+
+    }
+    .blue-icon{
+        margin-bottom: 1em;
+
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:990px){
+    .red-icon {
+        margin-left: 6em;
+
+
+
+    }
+    .green-icon{
+        margin-left: 1em;
+        margin-right: 3em;
+        float: right;
+    }
+    .yellow-icon{
+        margin-left: 1em;
+        margin-right: 2em;
+        float: right;
+
+
+
+    }
+    .blue-icon{
+
+
+
+
+    }
+    .headers{
+        text-align: center;
+        font-weight: bolder;
+        font-family: Anton;
+        font-size: 3em;
+
+    }
+    .headOne{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        font-size: 800px;
+    }
+    .headTwo{
+        margin-bottom: 1em;
+        font-size: 100px;
+    }
+    .headThree{
+        font-weight: lighter;
+        font-size: 20px ;
+        text-align: center;
+        font-family: Abel;
+    }
+
+
+}

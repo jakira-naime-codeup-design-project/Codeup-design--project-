@@ -33,3 +33,25 @@ body, html {
     text-align: center;
     font-family: Abel;
 }
+@media screen and (min-width:200px) and (max-width:765px){
+    .red-icon {
+        margin-left: auto;
+        margin-bottom: 1em;
+    }
+    .green-icon{
+        margin-left: auto;
+        margin-bottom: 1em;
+    }
+    .yellow-icon{
+        margin-bottom: 1em;
+
+    }
+    .blue-icon{
+        margin-bottom: 1em;
+
+    }
+
+
+
+
+    /* ... */ }

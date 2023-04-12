@@ -40,3 +40,10 @@
     align-items: center;
 }
 
+.dot-size {
+    padding-bottom: 12px;
+    padding-top: 12px;
+    width: 117px;
+    height: 117px;
+}
+
